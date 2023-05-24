@@ -26,17 +26,29 @@ namespace Template_4335.Windows
 
         private void WordPageBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(new Zakharov_4335.WordPage());
         }
 
         private void ExcelPageBtn_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Windows.Zakharov_4335.ExcelPage());
+            MainFrame.Navigate(new Zakharov_4335.ExcelPage());
         }
 
         private void DeleteDataBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            if (MessageBox.Show("Очистить данные?", "Внимание!", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                using (var isrpoEntities = new Zakharov_4335.IsrpoEntities())
+                {
+                    isrpoEntities.employees.RemoveRange(isrpoEntities.employees.ToList());
+                    isrpoEntities.SaveChanges();
+                    Zakharov_4335.IsrpoEntities.GetContext().employees.AsEnumerable().OrderBy(x => Convert.ToInt32(x.id_e)).ToList().Clear();
+                    foreach (var uslugi in isrpoEntities.employees.AsEnumerable().OrderBy(x => Convert.ToInt32(x.id_e)).ToList())
+                    {
+                        Zakharov_4335.IsrpoEntities.GetContext().employees.AsEnumerable().OrderBy(x => Convert.ToInt32(x.id_e)).ToList().Add(uslugi);
+                    }
+                }
+            }
         }
     }
 }

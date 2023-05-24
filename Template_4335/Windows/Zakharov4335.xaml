@@ -25,8 +25,8 @@
             <TextBlock Text="Захаров Даниил Владиславович. 8 вариант." Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" />
             <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" />
             <WrapPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button x:Name="WordPageBtn" Content="Word страница" Margin="0 0 50 0" Click="WordPageBtn_Click" />
                 <Button x:Name="ExcelPageBtn" Content="Excel страница" Margin="0 0 50 0" Click="ExcelPageBtn_Click" />
+                <Button x:Name="WordPageBtn" Content="Word страница" Margin="0 0 50 0" Click="WordPageBtn_Click" />
                 <Button x:Name="DeleteDataBtn" Content="Очистка данных" Click="DeleteDataBtn_Click" />
             </WrapPanel>
         </Grid>

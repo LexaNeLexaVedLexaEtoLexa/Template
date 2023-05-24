@@ -1,0 +1,102 @@
+[
+    {
+        "Id": 1,
+        "CodeStaff": "ID 101",
+        "Position": "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446",
+        "FullName": "\u0418\u0432\u0430\u043D\u043E\u0432 \u0418\u0432\u0430\u043D \u0418\u0432\u0430\u043D\u043E\u0432\u0438\u0447",
+        "Log": "Ivanov@namecomp.ru",
+        "Password": "2L6KZG",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 2,
+        "CodeStaff": "ID 102",
+        "Position": "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446",
+        "FullName": "\u041F\u0435\u0442\u0440\u043E\u0432 \u041F\u0435\u0442\u0440 \u041F\u0435\u0442\u0440\u043E\u0432\u0438\u0447",
+        "Log": "petrov@namecomp.ru",
+        "Password": "uzWC67",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 3,
+        "CodeStaff": "ID 103",
+        "Position": "\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440",
+        "FullName": "\u0424\u0435\u0434\u043E\u0440\u043E\u0432 \u0424\u0435\u0434\u043E\u0440 \u0424\u0435\u0434\u043E\u0440\u043E\u0432\u0438\u0447",
+        "Log": "fedorov@namecomp.ru",
+        "Password": "8ntwUp",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 4,
+        "CodeStaff": "ID 104",
+        "Position": "\u0421\u0442\u0430\u0440\u0448\u0438\u0439 \u0441\u043C\u0435\u043D\u044B",
+        "FullName": "\u041C\u0438\u0440\u043E\u043D\u043E\u0432 \u0412\u0435\u043D\u0438\u0430\u043C\u0438\u043D \u041A\u0443\u043F\u0440\u0438\u044F\u043D\u043E\u0432\u0438\u0447",
+        "Log": "mironov@namecomp.ru",
+        "Password": "YOyhfR",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 5,
+        "CodeStaff": "ID 105",
+        "Position": "\u0421\u0442\u0430\u0440\u0448\u0438\u0439 \u0441\u043C\u0435\u043D\u044B",
+        "FullName": "\u0428\u0438\u0440\u044F\u0435\u0432 \u0415\u0440\u043C\u043E\u043B\u0430\u0439 \u0412\u0435\u043D\u0438\u0430\u043C\u0438\u043D\u043E\u0432\u0438\u0447",
+        "Log": "shiryev@namecomp.ru",
+        "Password": "RSbvHv",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u041D\u0435\u0443\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 6,
+        "CodeStaff": "ID 106",
+        "Position": "\u0421\u0442\u0430\u0440\u0448\u0438\u0439 \u0441\u043C\u0435\u043D\u044B",
+        "FullName": "\u0418\u0433\u043D\u0430\u0442\u043E\u0432 \u041A\u0430\u0441\u0441\u0438\u0430\u043D \u0412\u0430\u0441\u0438\u043B\u044C\u0435\u0432\u0438\u0447",
+        "Log": "ignatov@namecomp.ru",
+        "Password": "rwVDh9",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 7,
+        "CodeStaff": "ID 107",
+        "Position": "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446",
+        "FullName": "\u0425\u043E\u0445\u043B\u043E\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u041C\u044D\u043B\u0441\u043E\u0432\u0438\u0447",
+        "Log": "hohlov@namecomp.ru",
+        "Password": "LdNyos",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 8,
+        "CodeStaff": "ID 108",
+        "Position": "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446",
+        "FullName": "\u0421\u0442\u0440\u0435\u043B\u043A\u043E\u0432 \u041C\u0441\u0442\u0438\u0441\u043B\u0430\u0432 \u0413\u0435\u043E\u0440\u0433\u044C\u0435\u0432\u0438\u0447",
+        "Log": "strelkov@namecomp.ru",
+        "Password": "gynQMT",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u041D\u0435\u0443\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 9,
+        "CodeStaff": "ID 109",
+        "Position": "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446",
+        "FullName": "\u0411\u0435\u043B\u044F\u0435\u0432\u0430 \u041B\u0438\u043B\u0438\u044F \u041D\u0430\u0443\u043C\u043E\u0432\u043D\u0430",
+        "Log": "belyeva@@namecomp.ru",
+        "Password": "AtnDjr",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    },
+    {
+        "Id": 10,
+        "CodeStaff": "ID 110",
+        "Position": "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446",
+        "FullName": "\u0421\u043C\u0438\u0440\u043D\u043E\u0432\u0430 \u0423\u043B\u044C\u044F\u043D\u0430 \u0413\u043E\u0440\u0434\u0435\u0435\u0432\u043D\u0430",
+        "Log": "smirnova@@namecomp.ru",
+        "Password": "JlFRCZ",
+        "LastEnter": "15:05:2022 13:13:00",
+        "TypeEnter": "\u0423\u0441\u043F\u0435\u0448\u043D\u043E"
+    }
+]
