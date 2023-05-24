@@ -85,5 +85,11 @@ namespace Template_4335
             Akhmetova_4335 ak = new Akhmetova_4335();
             ak.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Zakharov4335 za = new Zakharov4335();
+            za.Show();
+        }
     }
 }
