@@ -88,8 +88,8 @@ namespace Template_4335
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Zakharov4335 za = new Zakharov4335();
-            za.Show();
+            Makhov4335 mah = new Makhov4335();
+            mah.Show();
         }
     }
 }

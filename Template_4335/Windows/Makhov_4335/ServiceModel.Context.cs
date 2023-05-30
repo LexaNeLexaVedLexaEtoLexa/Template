@@ -7,25 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Template_4335.Windows.Zakharov_4335
+namespace Template_4335.Windows.Makhov_4335
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class IsrpoEntities : DbContext
+    public partial class WordExcelDatabaseEntities : DbContext
     {
-        public IsrpoEntities()
-            : base("name=IsrpoEntities")
+        public WordExcelDatabaseEntities()
+            : base("name=WordExcelDatabaseEntities")
         {
         }
-
-        private static IsrpoEntities _context = new IsrpoEntities();
-
-        public static IsrpoEntities GetContext()
+        private static WordExcelDatabaseEntities _context = new WordExcelDatabaseEntities();
+        public static WordExcelDatabaseEntities GetContext()
         {
             if (_context == null)
-                _context = new IsrpoEntities();
+                _context = new WordExcelDatabaseEntities();
             return _context;
         }
 
@@ -34,6 +32,6 @@ namespace Template_4335.Windows.Zakharov_4335
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<employees> employees { get; set; }
+        public virtual DbSet<Services> Services { get; set; }
     }
 }

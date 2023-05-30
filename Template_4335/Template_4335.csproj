@@ -111,6 +111,26 @@
     <Compile Include="Windows\Khusnutdinova_4335.xaml.cs">
       <DependentUpon>Khusnutdinova_4335.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Makhov_4335\Manager.cs" />
+    <Compile Include="Windows\Makhov_4335\SecondaryFunctions.cs" />
+    <Compile Include="Windows\Makhov_4335\ServiceModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Makhov_4335\ServiceModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Makhov_4335\ServiceModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Makhov_4335\Services.cs">
+      <DependentUpon>ServiceModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Maksimov_4335.xaml.cs">
       <DependentUpon>Maksimov_4335.xaml</DependentUpon>
     </Compile>
@@ -123,31 +143,13 @@
     <Compile Include="Windows\Zagidullin_4335.xaml.cs">
       <DependentUpon>Zagidullin_4335.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Zakharov4335.xaml.cs">
-      <DependentUpon>Zakharov4335.xaml</DependentUpon>
+    <Compile Include="Windows\Makhov4335.xaml.cs">
+      <DependentUpon>Makhov4335.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Zakharov_4335\employees.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Zakharov_4335\ExcelPage.xaml.cs">
+    <Compile Include="Windows\Makhov_4335\ExcelPage.xaml.cs">
       <DependentUpon>ExcelPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Zakharov_4335\Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Zakharov_4335\Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Zakharov_4335\Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Zakharov_4335\WordPage.xaml.cs">
+    <Compile Include="Windows\Makhov_4335\WordPage.xaml.cs">
       <DependentUpon>WordPage.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -202,15 +204,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Windows\Zakharov4335.xaml">
+    <Page Include="Windows\Makhov4335.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Zakharov_4335\ExcelPage.xaml">
+    <Page Include="Windows\Makhov_4335\ExcelPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Zakharov_4335\WordPage.xaml">
+    <Page Include="Windows\Makhov_4335\WordPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -238,28 +240,18 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <EntityDeploy Include="Windows\Zakharov_4335\Model1.edmx">
+    <None Include="Windows\Makhov_4335\1.json" />
+    <None Include="Windows\Makhov_4335\1.xlsx" />
+    <EntityDeploy Include="Windows\Makhov_4335\ServiceModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ServiceModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Windows\Zakharov_4335\Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
+    <None Include="Windows\Makhov_4335\ServiceModel.edmx.diagram">
+      <DependentUpon>ServiceModel.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Windows\Zakharov_4335\Model1.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Content>
-    <Content Include="Windows\Zakharov_4335\Model1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -301,6 +293,18 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Windows\Makhov_4335\ServiceModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ServiceModel.edmx</DependentUpon>
+      <LastGenOutput>ServiceModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Windows\Makhov_4335\ServiceModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ServiceModel.edmx</DependentUpon>
+      <LastGenOutput>ServiceModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

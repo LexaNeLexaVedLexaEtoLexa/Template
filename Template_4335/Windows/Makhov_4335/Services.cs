@@ -7,19 +7,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Template_4335.Windows.Zakharov_4335
+namespace Template_4335.Windows.Makhov_4335
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class employees
+    public partial class Services
     {
-        public string id_e { get; set; }
-        public string role_e { get; set; }
-        public string fio_e { get; set; }
-        public string login_e { get; set; }
-        public string password_e { get; set; }
-        public string last_e { get; set; }
-        public string type_e { get; set; }
+        public string Id { get; set; }
+        public string ServiceName { get; set; }
+        public string ServiceType { get; set; }
+        public string ServiceCode { get; set; }
+        public string ServicePrice { get; set; }
     }
 }
